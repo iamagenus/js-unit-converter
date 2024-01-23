@@ -21,7 +21,7 @@ function convert() {
     result = inputValue * 453.592;
   }  else if (fromUnit === "pounds" && toUnit === "milligrams") {
       result = inputValue * 453592;
-  } else if (fromUnit === "milligrams" && toUnit === "kilograms") {
+    } else if (fromUnit === "milligrams" && toUnit === "kilograms") {
       result = inputValue / 1000000;
   } else {
     // Handle undefined conversion
