@@ -1,3 +1,4 @@
+// Function to convert units
 function convert() {
   // Get user inputs
   const inputValue = parseFloat(document.getElementById("inputNumber").value);
@@ -6,7 +7,7 @@ function convert() {
 
   // Perform conversion
   let result;
-
+//Coversion units
   if (fromUnit === "grams" && toUnit === "kilograms") {
     result = inputValue / 1000;
   } else if (fromUnit === "kilograms" && toUnit === "grams") {
