@@ -24,7 +24,7 @@ label {
   display: block;
   margin: 10px 0;
 }
-/
+/* Styles for the input and select elements */
 input, select, button {
   margin: 5px 0;
 }
