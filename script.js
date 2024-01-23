@@ -28,7 +28,7 @@ function convert() {
     document.getElementById("result").innerText = "Error: Unsupported conversion.";
     return;
   }
-  // Display result with two decimal places
+  // Display result with six decimal places
 document.getElementById("result").innerText = `Result: ${result.toFixed(6)} ${toUnit}`;
 
 }
