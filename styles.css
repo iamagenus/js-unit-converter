@@ -1,3 +1,4 @@
+/* Styles for the body */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -9,7 +10,7 @@ body {
   background-color: #202122;
   color: #FFF
 }
-
+/* Styles for the converter container */
 .converter-container {
   text-align: center;
   padding: 20px;
@@ -18,16 +19,16 @@ body {
   background-color: #202122;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
-
+/* Styles for the input and select elements */
 label {
   display: block;
   margin: 10px 0;
 }
-
+/
 input, select, button {
   margin: 5px 0;
 }
-
+/* Styles for the button */
 button {
   padding: 8px 16px;
   background-color: #ad0614;
@@ -36,11 +37,11 @@ button {
   border-radius: 4px;
   cursor: pointer;
 }
-
+/* Styles for the button on hover */
 button:hover {
   background-color: #ff0000;
 }
-
+/* Styles for the result */
 #result {
   margin-top: 20px;
   font-weight: bold;
